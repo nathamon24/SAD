@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.ListIterator;
 
-public class Book {
+public class Book implements PrintToFile, PrintToScreen{
     private String title;
     private List<String> pages;
     private ListIterator<String> iterator;
